@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Email generation function
 function generateEmail() {
-    const name = "leoyuan";
-    const domain = "cmu.edu";
+    const name = "ctong29";
+    const domain = "wisc.edu";
     const email = name + "@" + domain;
     const emailEl = document.getElementById("email");
     if (emailEl) emailEl.innerHTML = email;
