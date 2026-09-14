@@ -22,7 +22,7 @@
   bottom: 2.5px;
   margin: 0;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 8px;
+  font-size: 7px;
   font-style: italic;
   line-height: 1.4;
   white-space: nowrap;
@@ -48,7 +48,7 @@
   .cover-photo-caption {
     right: 10px;
     bottom: 2.5px;
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 
