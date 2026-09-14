@@ -10,9 +10,23 @@
 }
 
 #profile-cover {
+  position: relative;
   box-sizing: border-box;
   width: 100%;
   max-width: none;
+}
+
+.cover-photo-caption {
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 11px;
+  font-style: italic;
+  line-height: 1.4;
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 #profile-namecard.wrapper-light {
@@ -29,6 +43,12 @@
 @media screen and (max-width: 600px) {
   .cover.shallow-bg {
     padding: 28px 15px;
+  }
+
+  .cover-photo-caption {
+    right: 10px;
+    bottom: 8px;
+    font-size: 10px;
   }
 }
 
