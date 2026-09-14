@@ -23,9 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize back to top functionality
     initializeBackToTop();
     
-    // Initialize badminton image hover effect
-    initializeBadmintonHover();
-
     // Initialize publication filter tabs
     initializePublicationTabs();
 
@@ -248,19 +245,3 @@ function initializePublicationTldrs() {
     });
 }
 
-// Badminton image hover effect
-function initializeBadmintonHover() {
-    const badmintonImg = document.getElementById('badminton-img');
-    const staticSrc = './images/self-portrait/badminton.png';
-    const animatedSrc = './images/self-portrait/badminton.gif';
-    
-    if (badmintonImg) {
-        badmintonImg.addEventListener('mouseenter', function() {
-            this.src = animatedSrc;
-        });
-        
-        badmintonImg.addEventListener('mouseleave', function() {
-            this.src = staticSrc;
-        });
-    }
-}
