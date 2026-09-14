@@ -3,32 +3,47 @@
 .cover.shallow-bg {
   background-color: var(--page-bg);
   background-image: url("../images/background/lincoln_park.jpg");
-  background-position: center 60%;
+  background-position: center 42%;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 52px 0;
 }
 
 #profile-cover {
   box-sizing: border-box;
   width: 100%;
   max-width: none;
+  min-height: clamp(420px, 44vw, 580px);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 15px;
+  margin-bottom: 72px;
 }
 
 #profile-namecard.wrapper-light {
-  background-color: rgba(255, 255, 255, 0.88);
+  transform: translateY(48px);
+  background-color: rgba(255, 255, 255, 0.78);
   border-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  content-visibility: visible;
 }
 
 @media screen and (max-width: 800px) {
-  .cover.shallow-bg {
-    padding: 40px 15px;
+  #profile-cover {
+    min-height: 420px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .cover.shallow-bg {
+  #profile-cover {
+    min-height: 450px;
+    align-items: center;
     padding: 28px 15px;
+    margin-bottom: 16px;
+  }
+
+  #profile-namecard.wrapper-light {
+    transform: none;
   }
 }
 
