@@ -96,16 +96,16 @@ h6 {
 }
 
 a {
-    color: #750014;
+    color: #C5050C;
     text-decoration: none
 }
 
 a:visited {
-    color: #750014
+    color: #C5050C
 }
 
 a:hover {
-    color: #A31F34;
+    color: #9B0000;
     text-decoration: underline
 }
 
@@ -185,7 +185,7 @@ pre>code {
 }
 
 .site-header {
-    border-top: 3px solid #750014;
+    border-top: 3px solid #C5050C;
     border-bottom: 1px solid #d9dee3;
     background-color: var(--card-bg);
     box-shadow: 0 2px 12px rgba(31, 35, 40, 0.06);
@@ -226,7 +226,7 @@ pre>code {
 }
 
 .site-nav .page-link:hover {
-    color: #750014;
+    color: #C5050C;
     text-decoration: none
 }
 
@@ -282,7 +282,7 @@ pre>code {
 }
 
 .site-footer {
-    border-top: 1px solid #750014;
+    border-top: 1px solid #C5050C;
     padding: 30px 0
 }
 
@@ -356,19 +356,19 @@ pre>code {
 
 .sm-heading {
     font-size: 20px;
-    font-color: #750014;
+    font-color: #C5050C;
     font-weight: 300
 }
 
 .md-heading {
     font-size: 24px;
-    font-color: #750014;
+    font-color: #C5050C;
     font-weight: 400
 }
 
 .lg-heading {
     font-size: 30px;
-    font-color: #750014;
+    font-color: #C5050C;
     font-weight: 600
 }
 
@@ -865,7 +865,7 @@ pre>code {
 .maxim>div>strong,
 .maxim>p>strong,
 .maxim>strong {
-    color: #750014
+    color: #C5050C
 }
 
 .maxim>div>b,
@@ -1122,7 +1122,7 @@ hr.soft {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #750014
+    color: #C5050C
 }
 
 .timeline-desc {
@@ -1614,7 +1614,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .pub-left>.intro-img {
     border-style: solid;
-    border-color: #750014;
+    border-color: #C5050C;
     border-width: 2px;
     max-width: 260px; /* Ensure consistent sizing with custom.css */
 }
@@ -1642,7 +1642,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .pub-right>.tags>.tag {
-    color: #750014;
+    color: #C5050C;
     font-weight: 500;
     font-size: 14px
 }
@@ -1661,7 +1661,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .pub-right>.publish>.status {
-    color: #750014;
+    color: #C5050C;
     font-weight: 800;
     font-size: 16px
 }
@@ -1887,7 +1887,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 .project-desc>div>strong,
 .project-desc>p>strong,
 .project-desc>strong {
-    color: #750014
+    color: #C5050C
 }
 
 .project-desc>.tags {
@@ -1896,7 +1896,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .project-desc>.tag,
 .project-desc>.tags>.tag {
-    color: #750014
+    color: #C5050C
 }
 
 .publisher {
@@ -1982,7 +1982,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     /* color: #610e03 */
-    /* color: #750014 */
+    /* color: #C5050C */
 }
 
 .teaching-title {

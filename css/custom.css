@@ -39,7 +39,7 @@ li.indented::before {
 .publication-category {
     font-size: 18px;
     font-weight: 600;
-    color: #750014;
+    color: #C5050C;
     margin-top: 30px;
     margin-bottom: 15px;
     border-bottom: 2px solid #e8e8e8;
@@ -91,12 +91,12 @@ li.indented::before {
 
 .pub-tab.is-active {
     background: var(--card-bg);
-    color: #750014;
+    color: #C5050C;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
 }
 
 .pub-tab.is-active:hover {
-    color: #750014;
+    color: #C5050C;
 }
 
 .pub-empty {
@@ -130,7 +130,7 @@ li.indented::before {
 .pub:focus-within {
     transform: translateY(-3px) scale(1.018);
     box-shadow: 0 16px 36px rgba(31, 35, 40, 0.13);
-    border-color: rgba(117, 0, 20, 0.28);
+    border-color: rgba(197, 5, 12, 0.28);
     z-index: 3;
 }
 
@@ -220,9 +220,9 @@ li.indented::before {
 }
 
 .pub-right .pub-tags-row .tags .tag:hover {
-    background: rgba(117, 0, 20, 0.08);
-    border-color: rgba(117, 0, 20, 0.2);
-    color: #750014;
+    background: rgba(197, 5, 12, 0.08);
+    border-color: rgba(197, 5, 12, 0.2);
+    color: #C5050C;
     text-decoration: none;
 }
 
@@ -236,7 +236,7 @@ li.indented::before {
 .pub-right .pub-tags-row .publish .publisher {
     display: inline-block;
     background: rgba(0, 0, 0, 0.06);
-    color: #750014;
+    color: #C5050C;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 999px;
     padding: 3px 11px;
@@ -259,7 +259,7 @@ li.indented::before {
     width: calc(100% + 12px); /* Reach into the card's padding, short of its edge */
     padding: 6px 12px;
     background-color: rgba(0, 0, 0, 0.06);
-    border-left: 3px solid #750014;
+    border-left: 3px solid #C5050C;
     border-radius: 0 4px 4px 0;
     transition: padding 0.2s ease;
 }
@@ -274,7 +274,7 @@ li.indented::before {
     list-style: none;
     cursor: pointer;
     font-weight: 700;
-    color: #750014;
+    color: #C5050C;
     letter-spacing: 0.3px;
     user-select: none;
     outline: none;
@@ -290,7 +290,7 @@ li.indented::before {
 .pub-right .desc .tldr-label::after {
     content: "\25B8";
     font-size: 11px;
-    color: #750014;
+    color: #C5050C;
     transition: transform 0.2s ease;
     display: inline-block;
 }
@@ -300,7 +300,7 @@ li.indented::before {
 }
 
 .pub-right .desc .tldr-label:hover {
-    color: #A31F34;
+    color: #9B0000;
 }
 
 .pub-right .desc .tldr-content {
@@ -454,7 +454,7 @@ li.indented::before {
     max-width: 260px; /* Slightly reduced to leave room for scaling */
     height: auto;
     border-radius: 8px;
-    border: 2px solid #750014;
+    border: 2px solid #C5050C;
     transition: transform 0.3s ease;
     transform-origin: center; /* Ensure scaling happens from center */
 }
@@ -922,8 +922,8 @@ section {
 }
 
 .icon-button:hover {
-    background-color: rgba(117, 0, 20, 0.10);
-    border-color: rgba(117, 0, 20, 0.28);
+    background-color: rgba(197, 5, 12, 0.10);
+    border-color: rgba(197, 5, 12, 0.28);
     transform: scale(1.05);
 }
 
@@ -931,5 +931,5 @@ section {
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-facebook {
-    color: #750014;
+    color: #C5050C;
 }
