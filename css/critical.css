@@ -19,10 +19,10 @@
 .cover-photo-caption {
   position: absolute;
   right: 16px;
-  bottom: 3px;
+  bottom: 2.5px;
   margin: 0;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 9px;
+  font-size: 8px;
   font-style: italic;
   line-height: 1.4;
   white-space: nowrap;
@@ -47,8 +47,8 @@
 
   .cover-photo-caption {
     right: 10px;
-    bottom: 3px;
-    font-size: 8px;
+    bottom: 2.5px;
+    font-size: 7px;
   }
 }
 
