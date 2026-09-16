@@ -173,6 +173,33 @@ li.indented::before {
     line-height: 1.4;
 }
 
+.pub-right .contribution-mark {
+    margin-left: 1px;
+    font-size: 0.72em;
+    font-weight: 600;
+    line-height: 0;
+    vertical-align: super;
+}
+
+.pub-right .author-contribution-note {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 14px;
+    margin-top: -3px;
+    margin-bottom: 7px;
+    color: #777;
+    font-size: 11.5px;
+    font-style: italic;
+    line-height: 1.35;
+}
+
+.pub-right .author-contribution-note sup {
+    font-size: 0.78em;
+    font-weight: 600;
+    line-height: 0;
+    vertical-align: super;
+}
+
 .pub-right .publish {
     margin-bottom: 10px;
     font-size: 14px;
