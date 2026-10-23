@@ -1,5 +1,13 @@
 // BibTeX citation data
 const bibtexData = {
+  'citeanchor': `@article{tong2026citeanchor,
+    title={CiteAnchor: Source-Aware Grounding for Hallucinated Citation Detection and Resolution},
+    author={Chenyi Tong and Ping Nie and Yu Zhang},
+    journal={arXiv preprint arXiv:2610.30355},
+    year={2026},
+    url={https://arxiv.org/abs/2610.30355}
+}`,
+
   'crystalstar': `@inproceedings{tong2026crystalstar,
     title={CrystalSTAR: Structured Action Orchestration with Trio-Reflection for Constrained Novel Crystal Discovery},
     author={Chenyi Tong and Jingru Gan and Yanqiao Zhu and Kaiqiao Han and Haixin Wang and Yizhou Sun and Wei Wang and Xiao Luo},
